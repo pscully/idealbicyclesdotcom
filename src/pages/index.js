@@ -14,11 +14,11 @@ function IndexPage(props) {
       <HeroSection
         bgColor="primary"
         size="large"
-        bgImage="https://source.unsplash.com/ugnrXk1129g/1600x800"
+        bgImage="/images/biking-articles.jpeg"
         bgImageOpacity={0.3}
         title="Ideal Bicycles"
-        subtitle="Coming Soon"
-        buttonText="Get Started"
+        subtitle="Perfect weather. Perfect time. Let's go for a ride."
+        buttonText="Read Articles"
         buttonColor="default"
         buttonPath="/pricing"
       />
@@ -27,15 +27,15 @@ function IndexPage(props) {
         size="medium"
         bgImage=""
         bgImageOpacity={1}
-        title="Features"
-        subtitle="All the features you need to move faster"
+        title="Bike Paths"
+        subtitle="Take a leisurely ride, or get hard core!"
       />
       <ClientsSection
         bgColor="light"
         size="medium"
         bgImage=""
         bgImageOpacity={1}
-        title="You're in good company"
+        title="Featured In"
         subtitle=""
       />
       <TestimonialsSection
@@ -43,7 +43,7 @@ function IndexPage(props) {
         size="medium"
         bgImage=""
         bgImageOpacity={1}
-        title="Here's what people are saying"
+        title="Real Riders Say"
         subtitle=""
       />
       <NewsletterSection
